@@ -1,0 +1,82 @@
+{
+  "itenary": [
+    {
+        "mode": "metro",
+        "from": "103.84945,1.370017",
+        "fromAdrs": "Ang Mo Kio",
+        "toAdrs": "Changi Airport",
+        "to": "103.988836,1.357372",
+        "startDateTime": "2019-01-12T11:40",
+        "fare": {
+            "price": 1.88,
+            "currency": "USD"
+        }
+    },
+    {
+        "mode": "cab",
+        "from": "103.988836,1.357372",
+        "to": "103.991531,1.36442",
+        "fromAdrs": "Changi Airport, T2 Arrival Drive, Loyang, Southeast, 819643, Singapore",
+        "toAdrs": "Terminal 1, T1 Basement Drive, Loyang, Southeast, 819642, Singapore",
+        "startDateTime": "2019-01-10T10:30",
+        "fare": {
+            "price": 20,
+            "currency": "USD"
+        }
+    },
+    {
+        "mode": "flight",
+        "from": "103.991531,1.36442",
+        "to": "135.502165,34.693738",
+        "fromAdrs": "Singapore Changi Airport, Changi, Changi, Singapore",
+        "toAdrs": "Osaka - All Airports, Osaka, Aichi, Japan",
+        "startDateTime": "2019-01-14T14:05",
+        "fare": {
+            "price": 277.2,
+            "currency": "USD"
+        },
+        "api": "sabre",
+        "flights": [
+            {
+                "departureAirport": "SIN",
+                "flightNumber": "3K765",
+                "operatingAirine": "3K",
+                "arrivalAirport": "MNL"
+            },
+            {
+                "departureAirport": "MNL",
+                "flightNumber": "3K763",
+                "operatingAirine": "3K",
+                "arrivalAirport": "KIX"
+            }
+        ]
+    },
+    {
+        "mode": "cab",
+        "from": "135.502165,34.693738",
+        "to": "135.772716,34.68231",
+        "fromAdrs": "大阪市役所, 中之島通, 北区, 大阪市, 大阪府, 近畿地方, 530-8201, 日本",
+        "startDateTime": "2019-01-12T11:30",
+        "toAdrs": "Kendo No.1, 宝来四丁目, 奈良市, 高市郡 (Takaichi District), 奈良県, 近畿地方, 6310821, 日本",
+        "fare": {
+            "price": 3.3,
+            "currency": "USD"
+        }
+    }
+  ],
+  "passengers": [
+    {
+      "name": "Rajan Kumar",
+      "type": 1,
+      "gender": 1,
+      "nationality": "US",
+      "passportNumber": "US-282-12-3344DFF",
+      "age": 32,
+      "contactNumbers": [{
+        "countryCode": 91,
+        "phone": 7895727782,
+        "phoneUseType": "P"
+      }]
+    }
+  ]
+}
